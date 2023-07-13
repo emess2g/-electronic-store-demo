@@ -1,0 +1,403 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Roboto:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+:root {
+    --color-white: #fff;
+    --color-gray: rgba(207, 201, 201, 0.18);
+    --color-orange: orangered;
+    --color-black: black;
+
+    --container-width-1g: 76%;
+    --container-width-md: 90%;
+    --container-width-sm: 94%;
+
+    --transition: all 400ms ease;
+
+}
+
+.nav__container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 24px;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+.nav__menu {
+    display: flex;
+    gap: 1rem;
+}
+
+a {
+    font-size: 20px;
+    color: black
+}
+
+a:hover {
+ color: orangered;
+ line-height: 10px;
+}
+
+
+
+.icon {
+    font-size: 40px;
+    background-color: white;
+}
+
+/* /// header /// */
+header {
+    background-color: whitesmoke;
+}
+
+.header__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+}
+
+.head-para_one {
+    color: orangered;
+    margin-bottom: 8px;
+}
+
+.head-one {
+    font-size: 55px;
+    margin-bottom: 8px;
+}
+
+.head-para_two {
+    margin-bottom: 24px;
+    width: 450px;
+    font-size: 18px;
+}
+
+.head-btn {
+    background-color: orangered;
+    border-radius: 24px;
+    padding: 16px;
+    color: white;
+}
+
+.head-btn:hover{
+    background-color: whitesmoke;
+    color: orangered;
+    transition: 0.8;
+}
+
+
+
+/* //// main //// */
+
+
+#categories {
+    margin-bottom: 80px;
+}
+
+.categories__title {
+    font-size: 24px;
+    margin-left: 250px;
+    padding: 40px 0;
+}
+
+.trending__categories {
+    display: flex;
+    justify-content: center;
+    gap: .5rem;
+}
+
+
+.cate__img {
+    width: 160px;
+    margin-bottom: 3rem;
+}
+
+.p__trending {
+    color: orangered;
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 14px;
+}
+
+/* /// high //// */
+
+#highlight {
+    margin-bottom: 80px;
+}
+
+
+.highlight_sec {
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+}
+
+
+.high_img {
+    width: 300px;
+
+}
+
+.product {
+    width: 30%;
+    height: 300px;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: .2rem;
+    background-color: whitesmoke;
+} 
+
+.product:hover{
+    background-color: orangered;
+    color: #fff;
+    cursor: pointer;
+}
+
+.pro-btn {
+    background-color: orangered;
+    border-radius: 24px;
+    padding: 12px;
+    color: white;
+}
+
+.pro-btn:hover {
+    background-color: whitesmoke;
+    color: orangered;
+    transition: 0.8;
+    cursor: pointer;
+}
+
+
+/* /// Latest products// */
+
+
+.cate__head {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px;
+}
+
+
+.trending__categories {
+    display: flex;
+    justify-content: center;
+}
+
+
+del {
+    text-decoration: line-through;
+    color: rgb(94, 92, 92);
+}
+
+
+/* ////////// Discount products///// */
+
+#discount {
+    margin-bottom: 5rem;
+}
+
+
+.discount__sec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+}
+
+.btn__discount {
+    padding: 15px 40px;
+    color: white;
+    background-color: orangered;
+    margin-bottom: 1rem;
+
+}
+
+.discount_left {
+    text-align: center;
+    width: 550px;
+}
+
+.discount__hero {
+    font-size: 50px;
+}
+
+.discount__boxes {
+    display: flex;
+    justify-content: center;
+    gap: .3rem;
+}
+
+.box {
+
+    border: 1px solid white;
+    padding: 30px 30px;
+    border-radius: 8px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+
+}
+
+/* /////////// popular products/// */
+.popular-pro__heading {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 3rem;
+}
+
+.popular_products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+
+.img__div {
+    border: 2px solid whitesmoke;
+    height: 18rem;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.im__div{
+    border: 2px solid whitesmoke;
+    height: 18rem;
+}
+
+
+
+/* ///////// Event and Blog // */
+
+.blog__sec{
+    padding: 60px;
+}
+
+.blog__head{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.bloq__products{
+    display: flex;
+    justify-content: center;
+    text-align: center; 
+     gap: 10rem;
+}
+
+.bloq__img{
+    width: 100%;
+    padding: 20px;
+ 
+}
+
+.bloq_fig{
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
+    width: 15rem;
+    height: 20rem;
+  
+
+}
+
+.bloq_quote{
+margin-right: 4rem;
+}
+
+/* ///////////// Delivery /////////// */
+#delivery{
+    background-color: whitesmoke;  
+}
+
+.delivery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 4rem;
+    height:40vh ;
+}
+
+.delivery_info{
+    width: 300px;
+    font-size: 20px;
+}
+
+
+.delivery_icons {
+    padding-bottom: 20px;
+    font-size: 40px;
+    background-color: whitesmoke;
+}
+/* //////////// Footer /////  */
+
+.footer_hero{
+    background-color: gray;
+    color: black;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+    gap: 5rem;
+}
+
+.footer_an li{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.footer_headings{
+    margin-bottom: 15px;
+}
+
+.app_buttons-container{
+ display: flex;
+ justify-content: space-around;
+ width: 330px;
+}
+
+
+.app_icon{
+    font-size: 30px;
+
+}
+.app_buttons{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 14px;
+    height: 50px;
+    width: 150px;
+    margin-top: 15px;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+#Copyright{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+    background-color: whitesmoke;
+    color: gray;
+    height: 5vh;
+}
